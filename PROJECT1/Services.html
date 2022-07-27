@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best food delivery services in India | Myfood.com</title>
+
+    <style>
+        #services {
+            flex-wrap: wrap;
+        }
+
+        #services .box {
+            background-color: yellow;
+            width: 200px;
+        }
+        .services-container::before{
+        content:"";
+        background:  url("food1.jpg") repeat left center;
+        position: absolute;
+        height: 100%;
+        top:0px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.50;
+    }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li class="iteam"><a href="FOOD BLOG.html"><img src="logo.jpeg" alt="Myfood.com" width="50"></a></li>
+            <li class="iteam"><a href="AboutUs.html">About Us</a></li>
+            <li class="iteam"><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="services-container">
+        <h1 class="h-parimary center ">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="/food1.jpg" alt="">
+                <h2 class ="h-secondary center">Food Ordering</h2>
+                <p class="center">India's largest Food Delivery, Dining and Restaurant Discovery Service. 
+                    Better food for more people.</p>
+            </div>
+            
+            <div class="box">
+                <img src="/food4.jpg" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Order The Best Food In Bulk Ording In India. Order Any Where Any Time. </p>
+            </div>
+            
+            <div class="box">
+            <img src="Restro.jpg" alt="Food Delivery">
+            <h2 class="h-secondary center">Trending This Week</h2>
+            <p class="center">Most Popular Restaurants in The Town This Week.
+                                30 Places
+            </p>
+            </div>
+
+            <div class="box">
+                <img src="Roof.jpg" alt=" ">
+                <h2 class="h-secondary bottom">Rooftops Restaurants</h2>
+                <p class="center">If you fancy a meal with a view. Your Are Most Welcome Here. 
+                                     6 Places.
+                </p>
+            </div>
+        </div>
+    </section>
+    
